@@ -32,3 +32,6 @@
 | POST /posts/:id/comments              | 특정 포스트에 덧글 등록                                     |
 | GET /posts/:id/comments               | 특정 포스트의 덧글 목록 조회                                |
 | DELETE /posts/:id/comments/:commentId | 특정 포스트의 특정 덧글 삭제                                |
+
+- **PATCH는 기존 내용을 유지하며 body로 전달한 값만 변경**
+- **PUT은 기존 내용을 삭제하고 body로 전달한 값 입력**
